@@ -16,8 +16,10 @@ def countdown(t):
         time.sleep(1)
         t -= 1
 t = int(input('enter the time in seconds here:'))
-start_time = time.time
-end_time =time.time
+
+''''start_time = time.time
+end_time =time.time # this did not work '''
+
 countdown(int(t))
 
 print('Countdown is finished')
