@@ -4,7 +4,7 @@ a = ['b','c','d','e','f','g', 'h']
 from time import sleep
 for i in pbar(a):
     sleep(0.50)
-    print(i, sep="")
+    print(i, "\r", sep="")
 
 '''EXERCISE:
 Create a program that
